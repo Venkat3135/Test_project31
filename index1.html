@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Black Jack</title>
+</head>
+
+<body>
+    <h1>
+        Black Jack
+    </h1>
+    <div class="name-container"  id="name-containers">
+
+        
+        <input id="input-el" type="text" placeholder="Enter Your Name">
+        <button type="button" onclick="submitName()">Submit</button>
+       
+        
+    </div>
+
+    <div>
+        <h2 id="Status-e1">Want to play a round?</h2>
+        <h2 id="Cards-e1">Cards: </h2>
+        <h2 id="Sum-e1">Sum:</h2>
+    </div>
+
+    <div class="game">
+        <button id="startgame-el" onclick="startGame()">Start Game</button>
+        <button id="newcard-el" onclick="newCard()">New Card</button>
+        <button id="clear-el" onclick="clarButton()">Clear</button>
+    </div>
+    <h2 id="Wins-e1">Wins: </h2>
+    <h2 id="Lost-e1">Lost: </h2>
+    <h2 id="TotalMatches-e1">Total Matches played: </h2>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
